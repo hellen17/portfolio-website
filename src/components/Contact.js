@@ -11,10 +11,15 @@ export default function Contact(){
                 <p>Satisfied with me? Please contact me.
                 </p>
                 <div className='flex gap-5 my-8 animate-pulse transition delay-150 duration-300 ease-in-out'>
-                 
-                    <FaGithub size={32} color='pink' />
-                    <FaLinkedin size={32} color='pink' />
-                    <FaMedium size={32} color='7562E0' />
+                    <a href="https://github.com/hellen17" target="_blank" rel="noopener">
+                        <FaGithub size={32} color='pink' />
+                    </a>
+                    <a href="https://www.linkedin.com/in/hellenkokach/" target="_blank" rel="noopener">
+                        <FaLinkedin size={32} href='' color='pink' />
+                    </a>
+                    <a href="https://hellenkokach.medium.com/" target="_blank" rel="noopener">
+                        <FaMedium size={32} color='7562E0' />
+                    </a>
 
 
 

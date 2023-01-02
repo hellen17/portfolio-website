@@ -1,6 +1,7 @@
-import {Card, CardMedia,Typography, CardContent, Button, CardActions} from '@mui/material'
+import {Card, CardMedia,Typography, CardContent, Button, CardActions, Chip} from '@mui/material'
 import { makeStyles } from '@mui/styles';
 import projectData from '../projectData.js';
+
 
 const useStyles = makeStyles({
     outlinedButton: {
@@ -23,12 +24,14 @@ export default function Project() {
             <div className='grid lg:grid-cols-3 gap-4'>
                 {projectData.map((project) => (
                     <Card sx={{ maxWidth: 300, backgroundColor: '#31313F' }} className="mt-3">
-                        <CardMedia
-                            sx={{ height: 150,  margin: 1
-                            }}
-                            image={project.thumbnail}
-                            title={project.name}
-                        />
+                        <div class="bg-gradient-red">
+                            <CardMedia
+                                sx={{ height: 150,  margin: 1 
+                                }}
+                                image={project.thumbnail}
+                                title={project.name}
+                            />
+                        </div>
                         <CardContent>
                             <Typography gutterBottom variant="h5" component="div" style={{ color: 'var(--primary-color)',fontWeight: 'bold' }}>
                             {project.name}
@@ -36,11 +39,16 @@ export default function Project() {
                             <Typography variant="body2" color="white">
                                 {project.description}
                             </Typography>
+
+                            {project.technologies.map(skill => (
+                                <Chip key={project.id} label={skill}  className='mr-1 my-2' style={{ backgroundColor:'pink'}} />
+                            ))}
+                                               
                         </CardContent>
                         <CardActions>
                         <div className="flex mt-5">
-                            <Button variant="contained" style={{ textTransform: 'none', marginRight: '1rem', backgroundColor: 'var(--primary-color)' }} >View Live</Button>
-                            <Button variant="outlined" style={{ textTransform: 'none' }} className={classes.outlinedButton} >Github Repo</Button>
+                            <Button variant="contained" component="a" href={project.live} target="_blank" style={{ textTransform: 'none', marginRight: '1rem', backgroundColor: 'var(--primary-color)' }} >View Live</Button>
+                            <Button variant="outlined" component="a" href={project.github} target="_blank" style={{ textTransform: 'none' }} className={classes.outlinedButton} >Github Repo</Button>
                         </div>
                         </CardActions>
                     </Card>
