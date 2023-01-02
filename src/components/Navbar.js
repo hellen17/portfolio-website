@@ -29,9 +29,9 @@ export function Navbar() {
             </div>
             <div style={{ display: 'flex' }}>
                 <a style={styles.a} href="/">Home</a>
-                <a style={styles.a} href="">About me</a>
-                <a style={styles.a} href="">Projects</a>
-                <a style={styles.a} href="">Contact</a>
+                <a style={styles.a} href="#about">About me</a>
+                <a style={styles.a} href="#projects">Projects</a>
+                <a style={styles.a} href="#contact">Contact</a>
             </div>
         
         </nav>

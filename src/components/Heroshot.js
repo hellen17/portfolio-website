@@ -8,7 +8,7 @@ const useStyles = makeStyles({
     outlinedButton: {
         '&.MuiButton-outlined': {
             borderColor: 'var(--primary-color)',
-            color: 'var(--primary-color)'
+            color: '#fff'
     }}
 })
 
@@ -17,7 +17,7 @@ export default function Heroshot(){
     const classes = useStyles();
 
     return(
-        <section className="flex px-5">
+        <section className="flex flex-col lg:flex-row">
             <div className="lg:w-2/3 w-full">
                 <div className="text-left lg:p-32 p-8">
                     <h1 className="text-4xl font-bold pb-5">Hello, i’m <br></br> Jane Doe</h1>
@@ -29,6 +29,7 @@ export default function Heroshot(){
                 </div>
             </div>
             <div className="lg:w-1/3 w-full mx-auto">
+                <img src='./images/hi.png' alt="hero shot" />
             </div>
           
         </section>
