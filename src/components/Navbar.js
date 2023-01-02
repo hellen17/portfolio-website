@@ -30,7 +30,7 @@ export function Navbar() {
             <div style={{ display: 'flex' }}>
                 <a style={styles.a} href="/">Home</a>
                 <a style={styles.a} href="#about">About me</a>
-                <a style={styles.a} href="#projects">Projects</a>
+                <a style={styles.a} href="#project">Projects</a>
                 <a style={styles.a} href="#contact">Contact</a>
             </div>
         

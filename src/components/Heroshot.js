@@ -23,8 +23,8 @@ export default function Heroshot(){
                     <h1 className="text-4xl font-bold pb-5">Hello, i’m <br></br> Jane Doe</h1>
                     <p className="text-2xl">Freelance UI designer, Fullstack developer, & Data Miner. I create seamless web experiences for end-users.</p>
                     <div className="flex mt-5">
-                    <Button variant="contained" style={{ textTransform: 'none', marginRight: '1rem', backgroundColor: 'var(--primary-color)' }} startIcon={<PersonIcon />} >About Me</Button>
-                    <Button variant="outlined" style={{ textTransform: 'none' }} endIcon={<RemoveRedEyeIcon style={{ color: 'white' }} />}  className={classes.outlinedButton} >Projects</Button>
+                    <Button href='#about' variant="contained" style={{ textTransform: 'none', marginRight: '1rem', backgroundColor: 'var(--primary-color)' }} startIcon={<PersonIcon />} >About Me</Button>
+                    <Button href='#project' variant="outlined" style={{ textTransform: 'none' }} endIcon={<RemoveRedEyeIcon style={{ color: 'white' }} />}  className={classes.outlinedButton} >Projects</Button>
                     </div>
                 </div>
             </div>

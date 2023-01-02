@@ -18,7 +18,7 @@ export default function About() {
     const classes = useStyles();
 
     return(
-        <div className="lg:px-32 p-8" id='#about'>
+        <div className="lg:px-32 p-8" id='about'>
             <h2 className="text-2xl font-bold mb-5" style={{color:'var(--primary-color)'}}>About me:</h2>
             <p>Hi, my name is Jayjay Dinero Dinero, i am a Fullstack web developer, UI designer, and Mobile developer. I jhave honed my skills in Web Development and advance i have core understanding of advance UI design principles. 
             </p>

@@ -16,7 +16,7 @@ export default function Project() {
     const classes = useStyles();
 
     return (
-        <div className="lg:px-32 p-8" id='#projects'>
+        <div className="lg:px-32 p-8" id='project'>
             <h2 className="text-2xl font-bold mb-5" style={{color:'var(--primary-color)'}}>Featured Projects:</h2>
             <p>I have worked on many projects over the course of being a Web Developer, here are a few of my live, real-world projects.
             </p> 
