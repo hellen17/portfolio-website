@@ -26,16 +26,16 @@ const projectData = [
         github: '   ',
         live: 'https://purrfectpics.netlify.app/'
     },
-    // {
-    //     id: 4,
-    //     name: 'Jenga Python Course',
-    //     description: 'Project 4 description',
-    //     thumbnail: 'https://via.placeholder.com/150',
-    //     technologies: ['HTML', 'CSS', 'JavaScript'],
-    //     github: '   ',
-    //     live: '   '
+    {
+        id: 4,
+        name: 'Jenga Python Course',
+        description: 'Project 4 description',
+        thumbnail: 'https://via.placeholder.com/150',
+        technologies: ['HTML', 'CSS', 'JavaScript'],
+        github: '   ',
+        live: '   '
 
-    // }
+    }
         
 ]
 export default projectData

@@ -35,7 +35,7 @@ export default function About() {
                     '& > :not(style)': {
                     m: 1,
                     width: 180,
-                    height: 180,
+                    height: 170,
                     color: 'white',
                     padding: '1rem',
                     backgroundColor: 'lightgrey',
@@ -44,7 +44,7 @@ export default function About() {
                     },
                 }}
                 >
-                <Paper elevation={0} style={{ backgroundColor: 'var(--primary-color)', }} className={classes.paper}> 
+                <Paper elevation={0} style={{ backgroundColor: 'var(--primary-color)' }} className={classes.paper}> 
                     <Grid container direction="column" alignItems="center">
                         <Grid item>
                         <DesignServicesIcon />
@@ -62,6 +62,7 @@ export default function About() {
                         <Grid item>
                         <b>WEB DEVELOPMENT</b>
                         </Grid>
+                        
                     </Grid>
                 </Paper>
                 <Paper elevation={0} className={classes.paper}>
@@ -70,7 +71,7 @@ export default function About() {
                         <TerminalIcon />
                         </Grid>
                         <Grid item>
-                        <b>WEB DEVELOPMENT</b>
+                        <b>WEB HOSTING</b>
                         </Grid>
                     </Grid>
                 </Paper>
