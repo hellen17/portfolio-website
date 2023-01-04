@@ -30,12 +30,24 @@ const projectData = [
         id: 4,
         name: 'Jenga Python Course',
         description: 'Project 4 description',
-        thumbnail: 'https://via.placeholder.com/150',
+        thumbnail: './images/jenga-python.png',
         technologies: ['WordPress', 'Custom CSS'],
         github: '   ',
-        live: '   '
+        live: 'https://jengaschool.com/python-programming-course/'
 
-    }
+    },
+    // {
+    //     id: 5,
+    //     name: 'Jenga Data Science Course',
+    //     description: 'Project 5 description',
+    //     thumbnail: 'https://via.placeholder.com/150',
+    //     technologies: [],
+    //     github: '   ',
+    //     live: ''
+    // },
+
+    
+    
         
 ]
 export default projectData
