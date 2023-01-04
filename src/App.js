@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import { Navbar } from './components/Navbar';
+import Navbar from './components/Navbar';
 import Heroshot from './components/Heroshot';
 import About from './components/About';
 import Project from './components/Project';
@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div className="px-5">
-      {/* <Navbar /> */}
+      <Navbar />
       <Heroshot />
       <About />
       <Project />

@@ -18,7 +18,7 @@ export default function Contact(){
                         <FaLinkedin size={32} href='' color='pink' />
                     </a>
                     <a href="https://hellenkokach.medium.com/" target="_blank" rel="noopener">
-                        <FaMedium size={32} color='7562E0' />
+                        <FaMedium size={32} color='pink' />
                     </a>
 
 

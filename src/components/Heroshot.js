@@ -17,7 +17,7 @@ export default function Heroshot(){
     const classes = useStyles();
 
     return(
-        <section className="flex flex-col lg:flex-row">
+        <section className="flex flex-col lg:flex-row mt-20">
             <div className="lg:w-2/3 w-full">
                 <div className="text-left lg:p-32 p-8">
                     <h1 className="text-4xl font-bold pb-5">Hello, i’m <br></br> Jane Doe</h1>
