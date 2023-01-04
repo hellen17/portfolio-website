@@ -31,7 +31,7 @@ const projectData = [
         name: 'Jenga Python Course',
         description: 'Project 4 description',
         thumbnail: 'https://via.placeholder.com/150',
-        technologies: ['HTML', 'CSS', 'JavaScript'],
+        technologies: ['WordPress', 'Custom CSS'],
         github: '   ',
         live: '   '
 
