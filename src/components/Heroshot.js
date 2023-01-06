@@ -20,7 +20,7 @@ export default function Heroshot(){
         <section className="flex flex-col lg:flex-row mt-20">
             <div className="lg:w-2/3 w-full">
                 <div className="text-left lg:p-32 p-8">
-                    <h1 className="text-4xl font-bold pb-5">Hello, i’m <br></br> Jane Doe</h1>
+                    <h1 className="text-4xl font-bold pb-5">Hello, i’m <br></br> Hellen Kokach</h1>
                     <p className="text-2xl">Frontend Developer. I create seamless web experiences for end-users.</p>
                     <div className="flex mt-5">
                     <Button href='#about' variant="contained" style={{ textTransform: 'none', marginRight: '1rem', backgroundColor: 'var(--primary-color)' }} startIcon={<PersonIcon />} >About Me</Button>
