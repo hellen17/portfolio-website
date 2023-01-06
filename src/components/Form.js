@@ -47,7 +47,7 @@ export default function Form(){
             });
 
             if (response.status === 200) {
-                alert('I will get back to you soon.')
+                alert('Thanks for reaching out. I will get back to you soon.')
                 console.log(response)
                   // Reset the form
                   setFormData({
