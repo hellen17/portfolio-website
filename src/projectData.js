@@ -20,7 +20,7 @@ const projectData = [
     {
         id: 3,
         name: 'Purrfect Pics',
-        description: 'A website designed for Cat Lovers',
+        description: 'A website that allows users to view cat images and save them to their profile',
         thumbnail: './images/purrfect pics.png',
         technologies: ['React', 'Tailwind', 'Chakra UI'],
         github: '   ',
