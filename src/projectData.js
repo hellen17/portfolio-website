@@ -2,7 +2,7 @@ const projectData = [
     {
         id: 1,
         name: 'StartBox',
-        description: 'Project 1 description',
+        description: 'An ecommerce platform that offers legal templates',
         thumbnail: './images/startbox.png',
         technologies: ['Django', 'Python', 'Postgres'],
         github: '',
@@ -11,7 +11,7 @@ const projectData = [
     {
         id: 2,
         name: 'Startup Talent Network',
-        description: 'Project 2 description',
+        description: 'A platform that connects startup professionals with opportunities',
         thumbnail: './images/stn.png',
         technologies: ['HTML', 'CSS', 'Bootstrap'],
         github: '   ',
@@ -20,7 +20,7 @@ const projectData = [
     {
         id: 3,
         name: 'Purrfect Pics',
-        description: 'Project 3 description',
+        description: 'A website designed for Cat Lovers',
         thumbnail: './images/purrfect pics.png',
         technologies: ['React', 'Tailwind', 'Chakra UI'],
         github: '   ',
