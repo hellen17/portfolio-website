@@ -50,7 +50,7 @@ export default function About() {
                         <DesignServicesIcon />
                         </Grid>
                         <Grid item>
-                        <b>UI & UX DESIGN</b>
+                        <b>WEB DEVELOPMENT</b>
                         </Grid>
                     </Grid>
                 </Paper>
@@ -60,7 +60,7 @@ export default function About() {
                         <TerminalIcon />
                         </Grid>
                         <Grid item>
-                        <b>WEB DEVELOPMENT</b>
+                        <b>UI & UX DESIGN</b>
                         </Grid>
                         
                     </Grid>
