@@ -1,5 +1,6 @@
 
 import { FaMedium, FaGithub, FaLinkedin } from 'react-icons/fa';
+import Form from './Form';
 
 
 export default function Contact(){
@@ -29,13 +30,7 @@ export default function Contact(){
             </div>
             <div className="lg:w-1/2">
                 <h3 className='text-2xl'>Contact me, let’s make magic together</h3>
-
-                <form className="flex flex-col gap-5 mt-5">
-                    <input type="text" placeholder="Name" className="p-2 rounded-md" style={{ backgroundColor: '#31313F' }} />
-                    <input type="email" placeholder="Email" className="p-2 rounded-md" style={{ backgroundColor: '#31313F' }} />
-                    <textarea placeholder="Message" className="p-2 rounded-md" style={{ backgroundColor: '#31313F' }} />
-                    <button className="p-2 rounded-md w-1/3" style={{ backgroundColor: 'var(--primary-color)' }}>Send</button>
-                </form>
+                <Form />
             </div>
 
         </div>
