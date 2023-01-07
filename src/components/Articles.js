@@ -1,6 +1,7 @@
 import {Card, CardMedia,Typography, CardContent, Button, CardActions} from '@mui/material'
 import { makeStyles } from '@mui/styles';
 import articlesData from '../articlesData';
+import LinkButton from './LinkButton';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from "swiper";
@@ -110,9 +111,9 @@ export default function Articles() {
                                                
                         </CardContent>
                         <CardActions>
-                        <div className="flex mt-5">
-                            <Button variant="contained" component="a" href={article.link} target="_blank" style={{ textTransform: 'none', marginRight: '1rem', backgroundColor: 'var(--primary-color)' }}>Read Article</Button>
-                            <Button variant="outlined" component="a" href={article.link} target="_blank" style={{ textTransform: 'none' }} className={classes.outlinedButton}>Read Article</Button>
+                        <div className="">
+                            <LinkButton href={article.link} variant="contained">Read Article</LinkButton>
+                            {/* <Button variant="outlined" component="a" href={article.link} target="_blank" style={{ textTransform: 'none' }} className={classes.outlinedButton}>Read Article</Button> */}
                         </div>
                         </CardActions>
                     </Card>

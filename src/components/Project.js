@@ -1,5 +1,5 @@
 import {Card, CardMedia,Typography, CardContent, Button, CardActions, Chip} from '@mui/material'
-import { makeStyles } from '@mui/styles';
+import LinkButton from './LinkButton.js';
 import projectData from '../projectData.js';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -10,19 +10,11 @@ import 'swiper/css'
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-const useStyles = makeStyles({
-    outlinedButton: {
-        '&.MuiButton-outlined': {
-            padding: 5,
-            borderColor: 'var(--primary-color)',
-            color: '#fff'
-    }}
-})
+
 
 export default function Project() {
 
 
-    const classes = useStyles();
     console.log(projectData)
 
     
@@ -113,8 +105,8 @@ export default function Project() {
                         </CardContent>
                         <CardActions>
                         <div className="flex mt-5">
-                            <Button variant="contained" component="a" href={project.live} target="_blank" style={{ textTransform: 'none', marginRight: '1rem', backgroundColor: 'var(--primary-color)' }} >View Live</Button>
-                            <Button variant="outlined" component="a" href={project.github} target="_blank" style={{ textTransform: 'none' }} className={classes.outlinedButton} >Github Repo</Button>
+                            <LinkButton href={project.live} variant="contained">View Live</LinkButton>
+                            <LinkButton href={project.github} outlined >Github Repo</LinkButton>
                         </div>
                         </CardActions>
                     </Card>
