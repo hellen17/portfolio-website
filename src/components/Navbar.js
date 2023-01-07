@@ -5,6 +5,7 @@ export default function Navbar(){
         {name:"Home",link:"/"},
         {name:"About me",link:"#about"},
         {name:"Projects",link:"#project"},
+        {name:"Articles",link:"#articles"},
         {name:"Contact",link:"#contact"},
       ];
     let [open,setOpen]=useState(false);
