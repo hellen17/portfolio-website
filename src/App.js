@@ -4,7 +4,9 @@ import Heroshot from './components/Heroshot';
 import About from './components/About';
 import Project from './components/Project';
 import Contact from './components/Contact';
+import Articles from './components/Articles';
 import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -13,6 +15,7 @@ function App() {
       <Heroshot />
       <About />
       <Project />
+      <Articles />
       <Contact />
       <Footer />
     
