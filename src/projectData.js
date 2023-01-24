@@ -23,7 +23,7 @@ const projectData = [
         description: 'A website that allows users to view cat images and save them to their profile',
         thumbnail: './images/purrfect pics.png',
         technologies: ['React', 'Tailwind', 'Chakra UI'],
-        github: '   ',
+        github: 'https://github.com/hellen17/Cat-Portfolio',
         live: 'https://purrfectpics.netlify.app/'
     },
     {
