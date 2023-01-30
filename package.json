@@ -13,6 +13,7 @@
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.2.2",
     "fs": "^0.0.1-security",
+    "html-parser": "^0.11.0",
     "path": "^0.12.7",
     "react": "^18.2.0",
     "react-analytics": "^1.0.3",
