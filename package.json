@@ -16,11 +16,8 @@
     "html-parser": "^0.11.0",
     "path": "^0.12.7",
     "react": "^18.2.0",
-<<<<<<< HEAD
     "react-analytics": "^1.0.3",
     "react-app-rewired": "^2.2.1",
-=======
->>>>>>> parent of 9924a86... add google analytics
     "react-dom": "^18.2.0",
     "react-icons": "^4.7.1",
     "react-scripts": "5.0.1",
