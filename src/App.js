@@ -1,6 +1,5 @@
+import { useEffect } from 'react';
 import ReactGA from 'react-ga';
-
-import logo from './logo.svg';
 import Navbar from './components/Navbar';
 import Heroshot from './components/Heroshot';
 import About from './components/About';
@@ -12,7 +11,15 @@ import Footer from './components/Footer';
 const trackingId = "G-2ZQZQZQZQZ"; // Replace with your Google Analytics tracking ID
 ReactGA.initialize(trackingId);
 
+
+
 function App() {
+
+  useEffect(() => {
+    ReactGA.initialize(trackingId);
+    ReactGA.pageview(window.location.pathname + window.location.search);
+  }, [])
+
   return (
     <div className="px-5">
       <Navbar />
