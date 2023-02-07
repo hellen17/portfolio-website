@@ -9,9 +9,6 @@ import Articles from './components/Articles';
 import Footer from './components/Footer';
 
 const trackingId = "G-2ZQZQZQZQZ"; // Replace with your Google Analytics tracking ID
-ReactGA.initialize(trackingId);
-
-
 
 function App() {
 
