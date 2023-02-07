@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 import Articles from './components/Articles';
 import Footer from './components/Footer';
 
-const trackingId = "G-2ZQZQZQZQZ"; // Replace with your Google Analytics tracking ID
+const trackingId = "G-9JKM67H3QE"; // Replace with your Google Analytics tracking ID
 
 function App() {
 
