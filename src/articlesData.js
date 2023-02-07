@@ -10,7 +10,7 @@ const articlesData = [
         {
             id: 2,
             title: 'Getting started with git workflow',
-            description: 'How to get started with git workflow.',
+            description: 'In this article, I talk about the importance of git workflow and how to get started.',
             thumbnail: './images/git thumbnail.webp',
             link: 'https://medium.com/ian-product/getting-started-with-git-workflow-412609fe4b7c'
         },
@@ -24,7 +24,7 @@ const articlesData = [
         {
             id: 4,
             title: 'Deploy React App on Netlify',
-            description: 'In this article, I talk about how to deploy a React app on Netlify.',
+            description: 'In this article, I discuss the steps to deploy a React app on Netlify.',
             thumbnail: './images/deploy react.webp',
             link: 'https://hellenkokach.medium.com/hosting-a-react-app-on-netlify-42e0359ac8ca'
         },

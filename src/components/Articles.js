@@ -101,7 +101,7 @@ export default function Articles() {
                             />
                         </div>
                         <CardContent>
-                            <Typography gutterBottom variant="h5" component="div" style={{ color: 'var(--primary-color)',fontWeight: 'bold' }}>
+                            <Typography gutterBottom variant="h5" component="div" style={{ color: 'var(--primary-color)',fontWeight: 'bold', fontSize: '1.2rem' }}>
                             {article.title}
                             </Typography>
                             <Typography variant="body2" color="white">
