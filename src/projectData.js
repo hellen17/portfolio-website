@@ -5,8 +5,8 @@ const projectData = [
         description: 'An ecommerce platform that offers legal templates',
         thumbnail: './images/startbox.png',
         technologies: ['Django', 'Python', 'Postgres'],
-        github: '',
-        live: 'https://startbx.com/'
+        github: 'https://github.com/hellen17/StartBox',
+        live: 'https://reccloud.com/u/39vzgam'
     },
     {
         id: 2,
