@@ -1,3 +1,6 @@
+import { useEffect } from 'react';
+import ReactGA from 'react-ga';
+
 import Button from '@mui/material/Button';
 import PersonIcon from '@mui/icons-material/Person';
 import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
@@ -15,6 +18,11 @@ const useStyles = makeStyles({
 
 export default function Heroshot(){
     const classes = useStyles();
+
+    useEffect(() => {
+        ReactGA.pageview(window.location.pathname + window.location.search);
+    }, [])
+    
 
     return(
         <section className="flex flex-col lg:flex-row mt-20">
