@@ -1,5 +1,5 @@
 
-import { FaMedium, FaGithub, FaLinkedin } from 'react-icons/fa';
+import { FaMedium, FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 import Form from './Form';
 
 
@@ -9,9 +9,12 @@ export default function Contact(){
 
             <div className="lg:w-1/2">
                 <h2 className="text-2xl font-bold mb-5" style={{color:'var(--primary-color)'}}>Connect with me:</h2>
-                <p>Satisfied with me? Please contact me.
+                <p>Feel free to reach out to me, I am always open to new opportunities and collaborations.
                 </p>
                 <div className='flex gap-5 my-8 animate-pulse transition delay-150 duration-300 ease-in-out'>
+                    <a href="mailto:kokachhellen@outlook.com">
+                        <FaEnvelope size={32} color='pink' />
+                    </a>
                     <a href="https://github.com/hellen17" target="_blank" rel="noopener">
                         <FaGithub size={32} color='pink' />
                     </a>
@@ -21,10 +24,6 @@ export default function Contact(){
                     <a href="https://hellenkokach.medium.com/" target="_blank" rel="noopener">
                         <FaMedium size={32} color='pink' />
                     </a>
-
-
-
-
                 </div>
 
             </div>
