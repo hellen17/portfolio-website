@@ -10,12 +10,12 @@ const projectData = [
     },
     {
         id: 2,
-        name: 'Startup Talent Network',
-        description: 'A platform that connects startup professionals with opportunities',
-        thumbnail: './images/stn.png',
-        technologies: ['HTML', 'CSS', 'Bootstrap'],
-        github: '   ',
-        live: 'https://www.startuptalentnetwork.co/'
+        name: 'Ecommerce Product Page',
+        description: 'Frontend Mentor - E-commerce product page solution',
+        thumbnail: './images/ecommerce frontend.png',
+        technologies: ['React', 'Tailwind', 'Ant Design'],
+        github: 'https://github.com/hellen17/ecommerce-product-page-frontend-mentor',
+        live: 'https://frontend-ecommerce-product-page.netlify.app/'
     },
     {
         id: 3,
@@ -26,16 +26,29 @@ const projectData = [
         github: 'https://github.com/hellen17/Cat-Portfolio',
         live: 'https://purrfectpics.netlify.app/'
     },
+
     {
         id: 4,
+        name: 'Startup Talent Network',
+        description: 'A platform that connects startup professionals with opportunities',
+        thumbnail: './images/stn.png',
+        technologies: ['HTML', 'CSS', 'Bootstrap'],
+        github: '   ',
+        live: 'https://www.startuptalentnetwork.co/'
+    },
+
+    {
+        id: 5,
         name: 'Jenga Python Course',
-        description: 'Project 4 description',
+        description: 'Section of the Jenga School website that offers python programming courses',
         thumbnail: './images/jenga-python.png',
         technologies: ['WordPress', 'Custom CSS'],
         github: '   ',
         live: 'https://jengaschool.com/python-programming-course/'
 
     },
+
+   
     // {
     //     id: 5,
     //     name: 'Jenga Data Science Course',

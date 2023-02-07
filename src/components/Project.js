@@ -91,7 +91,7 @@ export default function Project() {
                             />
                         </div>
                         <CardContent>
-                            <Typography gutterBottom variant="h5" component="div" style={{ color: 'var(--primary-color)',fontWeight: 'bold' }}>
+                            <Typography gutterBottom variant="h5" component="div" style={{ color: 'var(--primary-color)',fontWeight: 'bold', fontSize: '1.2rem' }}>
                             {project.name}
                             </Typography>
                             <Typography variant="body2" color="white">
