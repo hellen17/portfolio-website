@@ -39,6 +39,16 @@ const projectData = [
 
     {
         id: 5,
+        name: 'Advice generator',
+        description: 'Frontend mentor - A website that generates random advice',
+        thumbnail: './images/advice-generator.png',
+        technologies: ['JavaScript', 'Sass', 'Fetch API'],
+        github: 'https://github.com/hellen17/advice-generator',
+        live: 'https://hellen17.github.io/advice-generator/'
+    },
+
+    {
+        id: 6,
         name: 'Jenga Python Course',
         description: 'Section of the Jenga School website that offers python programming courses',
         thumbnail: './images/jenga-python.png',
