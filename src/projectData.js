@@ -19,12 +19,12 @@ const projectData = [
     },
     {
         id: 3,
-        name: 'Purrfect Pics',
-        description: 'A website that displays cat images and allows users to search for vets depending on their location',
+        name: 'Purrfect Health',
+        description: 'A website that allows users to search for vets depending on their location',
         thumbnail: './images/purrfect pics.png',
         technologies: ['React', 'Tailwind', 'Node.js'],
         github: 'https://github.com/hellen17/Cat-Portfolio',
-        live: 'https://purrfectpics.netlify.app/'
+        live: 'https://purrfecthealth.netlify.app/'
     },
 
     {
