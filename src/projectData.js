@@ -20,7 +20,7 @@ const projectData = [
     {
         id: 3,
         name: 'Purrfect Health',
-        description: 'A website that allows users to search for vets depending on their location',
+        description: 'A website that contains a list of recommended veterinary practitioners from all over the country and allows one to search or filter the data.',
         thumbnail: './images/purrfect pics.png',
         technologies: ['React', 'Tailwind', 'Node.js'],
         github: 'https://github.com/hellen17/Cat-Portfolio',
@@ -49,6 +49,17 @@ const projectData = [
 
     {
         id: 6,
+        name: 'Elfi Dental Clinic',
+        description: 'Elfi Dental is a private dental clinic in Mombasa',
+        thumbnail: './images/elfi dental.png',
+        technologies: ['WordPress', 'Custom CSS'],
+        github: '   ',
+        live: 'https://elfidental.com/'
+    },
+    
+
+    {
+        id: 7,
         name: 'Jenga Python Course',
         description: 'Section of the Jenga School website that offers python programming courses',
         thumbnail: './images/jenga-python.png',
@@ -57,6 +68,7 @@ const projectData = [
         live: 'https://jengaschool.com/python-programming-course/'
 
     },
+
 
    
     // {
