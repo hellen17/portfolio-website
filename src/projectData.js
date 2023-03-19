@@ -20,7 +20,7 @@ const projectData = [
     {
         id: 3,
         name: 'Purrfect Health',
-        description: 'A website listing recommended veterinary practitioners nationwide with search and filter capabilities.',
+        description: 'A website listing recommending veterinary practitioners nationwide with search and filter capabilities.',
         thumbnail: './images/purrfect pics.png',
         technologies: ['React', 'Tailwind', 'Node.js'],
         github: 'https://github.com/hellen17/Cat-Portfolio',
