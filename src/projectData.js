@@ -10,6 +10,25 @@ const projectData = [
     },
     {
         id: 2,
+        name: 'Purrfect Health',
+        description: 'A website with vet listings and search/filter options.',
+        thumbnail: './images/purrfect pics.png',
+        technologies: ['React', 'Tailwind', 'Node.js'],
+        github: 'https://github.com/hellen17/Cat-Portfolio',
+        live: 'https://purrfecthealth.netlify.app/'
+    },
+    {
+        id: 3,
+        name: 'NutriBot',
+        description: 'A nutrition chatbot assistant that offers diet recommendations',
+        thumbnail: './images/nutribot.jfif',
+        technologies: ['RASA', 'NLP', 'Django'],
+        github: 'https://github.com/hellen17/NutriBot',
+        live: 'https://github.com/hellen17/NutriBot/tree/master'
+
+    },
+    {
+        id: 4,
         name: 'Ecommerce Product Page',
         description: 'Frontend Mentor - E-commerce product page solution',
         thumbnail: './images/ecommerce frontend.png',
@@ -17,18 +36,10 @@ const projectData = [
         github: 'https://github.com/hellen17/ecommerce-product-page-frontend-mentor',
         live: 'https://frontend-ecommerce-product-page.netlify.app/'
     },
-    {
-        id: 3,
-        name: 'Purrfect Health',
-        description: 'A website listing recommending veterinary practitioners nationwide with search and filter capabilities.',
-        thumbnail: './images/purrfect pics.png',
-        technologies: ['React', 'Tailwind', 'Node.js'],
-        github: 'https://github.com/hellen17/Cat-Portfolio',
-        live: 'https://purrfecthealth.netlify.app/'
-    },
+  
 
     {
-        id: 4,
+        id: 5,
         name: 'Startup Talent Network',
         description: 'A platform that connects startup professionals with opportunities',
         thumbnail: './images/stn.png',
@@ -38,7 +49,7 @@ const projectData = [
     },
 
     {
-        id: 5,
+        id: 6,
         name: 'Advice generator',
         description: 'Frontend mentor - A website that generates random advice',
         thumbnail: './images/advice-generator.png',
@@ -48,7 +59,7 @@ const projectData = [
     },
 
     {
-        id: 6,
+        id: 7,
         name: 'Elfi Dental Clinic',
         description: 'Elfi Dental is a private dental clinic in Mombasa',
         thumbnail: './images/elfi dental.png',
@@ -58,16 +69,16 @@ const projectData = [
     },
     
 
-    {
-        id: 7,
-        name: 'Jenga Python Course',
-        description: 'Section of the Jenga School website that offers python programming courses',
-        thumbnail: './images/jenga-python.png',
-        technologies: ['WordPress', 'Custom CSS'],
-        github: '   ',
-        live: 'https://jengaschool.com/python-programming-course/'
+    // {
+    //     id: 8,
+    //     name: 'Jenga Python Course',
+    //     description: 'Section of the Jenga School website that offers python programming courses',
+    //     thumbnail: './images/jenga-python.png',
+    //     technologies: ['WordPress', 'Custom CSS'],
+    //     github: '   ',
+    //     live: 'https://jengaschool.com/python-programming-course/'
 
-    },
+    // },
 
 
    
