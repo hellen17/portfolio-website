@@ -23,7 +23,7 @@ export default function About() {
             <p>I am a web developer with over four years of experience building SaaS products in the startup space. I am passionate about innovation and creating solutions that are accessible and user-centric. My technical skills include Django, Python, ReactJS, NodeJS, HTML5, CSS, JavaScript, Tailwind, UI/UX, WordPress & SEO.  
             </p>
             <div className="flex lg:flex-row flex-col lg:items-center mt-5">
-                <p className="text-8xl font-bold" style={{color:'var(--primary-color)'}}>3+</p>
+                <p className="text-8xl font-bold" style={{color:'var(--primary-color)'}}>4+</p>
                 <p className="lg:ml-8">Years of experience. Specialised in building web apps, while ensuring a seamless
                     web experience for end users.</p>
 
