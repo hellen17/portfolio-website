@@ -39,16 +39,10 @@ export default function Form(){
         e.preventDefault();
         console.log('Form submitted');
         try {
-            const response = await axios.post('https://api.airtable.com/v0/appm1rsvExrqtPNUp/Portfolio', formData, {
-                headers: {
-                    'Authorization': `Bearer ${process.env.REACT_APP_AIRTABLE_KEY}`,
-                    'Content-Type': 'application/json'
-                }
-            });
+            const response = await axios.post('/.netlify/functions/sendToAirtable', formData);
 
             if (response.status === 200) {
                 alert('Thanks for reaching out. I will get back to you soon.')
-                console.log(response)
                 
                   // Reset the form
                   setFormData({
